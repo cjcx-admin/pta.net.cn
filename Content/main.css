@@ -1,0 +1,1097 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*全局样式*/
+
+body {
+    margin: 0 0 0 0;
+    background-color: #fff;
+}
+
+.required {
+    color: red;
+    font-size: 12px;
+}
+
+.zj_search {
+    background-image: url(../images/search1.jpg);
+    background-repeat: repeat-x;
+    background-position: left top;
+    height: 26px;
+    width: 130px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.copyright {
+    font-family: "宋体", "SimHei";
+    color: #FFF;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.num {
+    font-family: "宋体", "SimHei";
+    color: #fff600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.news {
+    font-family: "宋体", "SimHei";
+    color: #333333;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.news a:link {
+    text-decoration: none;
+    color: #333333;
+    line-height: 26px;
+}
+
+.news a:hover {
+    color: #ff5601;
+    text-decoration: underline;
+    line-height: 26px;
+}
+
+.news a:active {
+    text-decoration: none;
+    line-height: 26px;
+    color: #333333;
+}
+
+.news a:visited {
+    text-decoration: none;
+    line-height: 26px;
+    color: #333;
+}
+
+.zj_titile_boder1 {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #2c5ebf;
+    border-bottom-color: #e4e4e4;
+    font-family: "宋体";
+    font-size: 16px;
+    color: #2a5ec1;
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.zj_boder2 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #e5e5e5;
+    border-bottom-color: #e5e5e5;
+    border-left-color: #e5e5e5;
+}
+
+/*搜索样式*/
+
+#textfield1 {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #c9bec2;
+    background-image: url(../images/search_bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 26px;
+    width: 142px;
+    background-color: #f9f9f8;
+    font-style: normal;
+    padding-left: 24px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 6px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #c4c4c4;
+    border-bottom-color: #c4c4c4;
+    border-left-color: #c4c4c4;
+}
+
+/*专业技术考试页面样式*/
+
+.yahei {
+    font-family: "Microsoft YaHei", "SimHei";
+    color: #FFF;
+    font-size: 14px;
+}
+
+.zhuanji_nav_bg {
+    background-color: #2469ce;
+    height: 42px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #417edc;
+    border-bottom-color: #417edc;
+}
+
+.zhuanji_nav_font {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.zhuanji_nav_font a {
+    display: inline-block;
+}
+
+/*导航样式更新*/
+
+.zhuanji_nav_font a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zhuanji_nav_font a:hover {
+    color: #fff;
+    background-color: #144eac;
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+}
+
+.zhuanji_nav_font a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zhuanji_nav_font a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*专技当前导航*/
+
+.zhuanji_nav_font_current {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #144eac;
+}
+
+.zhuanji_nav_font_current a {
+    display: inline-block;
+}
+
+.zhuanji_nav_font_current a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zhuanji_nav_font_current a:hover {
+    color: #fff;
+    background-color: #144eac;
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+}
+
+.zhuanji_nav_font_current a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zhuanji_nav_font_current a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* end 专技当前导航*/
+
+.zhuanji_nav2_bg {
+    background-image: url(../images/nav2_bg.jpg);
+    background-repeat: repeat-x;
+    background-position: center top;
+    height: 26px;
+    border: 1px solid #dfe3e6;
+}
+
+.zhuanji_nav2_font {
+    font-family: "宋体", "SimHei";
+    color: #4d545a;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.zhuanji_nav2_font a:link {
+    text-decoration: none;
+    color: #4d545a;
+}
+
+.zhuanji_nav2_font a:hover {
+    color: #ff5601;
+    text-decoration: underline;
+}
+
+.zhuanji_nav2_font a:active {
+    text-decoration: none;
+    color: #4d545a;
+}
+
+.zhuanji_nav2_font a:visited {
+    text-decoration: none;
+    color: #4d545a;
+}
+
+.zhuanji_nav2_font_red {
+    font-family: "宋体", "SimHei";
+    color: #ff5601;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.zhuanji_nav2_font_red a:link {
+    text-decoration: none;
+    color: #ff5601;
+}
+
+.zhuanji_nav2_font_red a:hover {
+    color: #4d545a;
+    text-decoration: underline;
+}
+
+.zhuanji_nav2_font_red a:active {
+    text-decoration: none;
+    color: #ff5601;
+}
+
+.zhuanji_nav2_font_red a:visited {
+    text-decoration: none;
+    color: #ff5601;
+}
+
+.zhuanji_font_green {
+    font-family: "宋体", "SimHei";
+    color: #5fb725;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.zhuanji_font_green a:link {
+    text-decoration: none;
+    color: #5fb725;
+}
+
+.zhuanji_font_green a:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+
+.zhuanji_font_green a:active {
+    text-decoration: none;
+    color: #5fb725;
+}
+
+.zhuanji_font_green a:visited {
+    text-decoration: none;
+    color: #5fb725;
+}
+
+.zhuanji_font_grey {
+    font-family: "宋体", "SimHei";
+    color: #989898;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.zhuanji_news_line1 {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+}
+
+.zhuanji_news_line2 {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #c1c1c1;
+}
+
+.zhuanji_news_line3 {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #c1c1c1;
+    width: 400px;
+}
+
+.time {
+    font-family: "宋体", "SimHei";
+    color: #838383;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.enroll {
+    font-family: "宋体", "SimHei";
+    color: #2b5ebe;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.enroll a:link {
+    text-decoration: none;
+    color: #2b5ebe;
+}
+
+.enroll a:hover {
+    color: #ff5601;
+    text-decoration: underline;
+}
+
+.enroll a:active {
+    text-decoration: none;
+    color: #2b5ebe;
+}
+
+.enroll a:visited {
+    text-decoration: none;
+    color: #2b5ebe;
+}
+
+.zhuanji_title1 {
+    font-family: "Microsoft YaHei", "SimHei";
+    color: #2b5ebe;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.zhuanji_title2 {
+    font-family: "宋体";
+    color: #2b5ebe;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.zhuanji_title1_more {
+    font-family: "宋体", "SimHei";
+    color: #666666;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.zhuanji_title1_search {
+    font-family: "宋体", "SimHei";
+    color: #333333;
+    font-size: 12px;
+    line-height: 26px;
+}
+
+/*资讯中心样式*/
+
+.zixun_nav_bg {
+    background-color: #26a3b5;
+    height: 42px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #3eb7c8;
+    border-bottom-color: #3eb7c8;
+}
+
+.zixun_nav_font {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.zixun_nav_font a {
+    display: inline-block;
+}
+
+.zixun_nav_font a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zixun_nav_font a:hover {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+    background-color: #008fa4;
+}
+
+.zixun_nav_font a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zixun_nav_font a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*当前资讯中心的样式*/
+
+.zixun_nav_font_current {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    background-color: #008fa4;
+    color: #FFF;
+}
+
+.zixun_nav_font_current a {
+    display: inline-block;
+}
+
+.zixun_nav_font_current a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zixun_nav_font_current a:hover {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+    background-color: #008fa4;
+}
+
+.zixun_nav_font_current a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zixun_nav_font_current a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* end 当前资讯中心的样式*/
+
+.zixunzhongxin_title1 {
+    font-family: "Microsoft YaHei", "SimHei";
+    color: #009bad;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+/*公务员与事业单位考试服务平台心样式*/
+
+.gwy_nav_bg {
+    background-color: #e83401;
+    height: 42px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #ff832b;
+    border-bottom-color: #ff832b;
+}
+
+.gwy_nav_font {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.gwy_nav_font a {
+    display: inline-block;
+}
+
+.gwy_nav_font a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.gwy_nav_font a:hover {
+    color: #fff;
+    background-color: #ff832b;
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+}
+
+.gwy_nav_font a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.gwy_nav_font a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*当前页突出显示*/
+
+.gwy_nav_font_current {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #ff832b;
+}
+
+.gwy_nav_font_current a {
+    display: inline-block;
+}
+
+.gwy_nav_font_current a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.gwy_nav_font_current a:hover {
+    color: #fff;
+    background-color: #ff832b;
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+}
+
+.gwy_nav_font_current a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.gwy_nav_font_current a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* end 当前页突出显示*/
+
+.gwy_gonggao {
+    background-color: #ffffff;
+    border: 1px solid #a5a5a5;
+}
+
+.gwy_caozuo {
+    background-color: #fdf6f0;
+    border: 1px solid #a5a5a5;
+}
+
+.gwy_caozuo_font {
+    font-family: "宋体";
+    font-size: 14px;
+    color: #3f4042;
+}
+
+.gwy_title2 {
+    font-family: "宋体";
+    color: #d00137;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.gwy_headertitle_font {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+/*市县考试服务平台心样式*/
+
+.shixian_nav_bg {
+    background-color: #60b526;
+    height: 42px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: #a6bdb5;
+    border-bottom-color: #a6bdb5;
+}
+
+.shixian_nav_font {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.shixian_nav_font a {
+    display: inline-block;
+}
+
+.shixian_nav_font a:link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.shixian_nav_font a:hover {
+    color: #fff;
+    background-color: #529b18;
+    height: 100%;
+    width: 100%;
+    padding-top: 7px;
+}
+
+.shixian_nav_font a:active {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.shixian_nav_font a:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.zj_title1 {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 18px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.shixian_title1 {
+    font-family: "Microsoft YaHei", "SimHei";
+    color: #529c1f;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.shixian_font1 {
+    font-family: "宋体";
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.link1 {
+    border: 1px solid #eaeaea;
+    background-color: #f9f9f9;
+}
+
+.link_font {
+    font-family: "宋体";
+    font-size: 14px;
+    color: #8C8C8C;
+    font-weight: bold;
+}
+
+.link_font1 {
+    font-family: "宋体";
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.bm_side {
+    border: 1px solid #b9b9b9;
+}
+
+.bm_bj {
+    background-image: url(../images/zyjsksbm_06.jpg);
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 710px;
+}
+
+.bm_bj1 {
+    background-image: url(../images/gwy1.jpg);
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 694px;
+}
+
+.zj_welcome {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 22px;
+    color: #000;
+    font-weight: normal;
+}
+
+.zj_welcome1 {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 22px;
+    color: #ff0000;
+    font-weight: normal;
+}
+
+.zj_welcome_green {
+    font-family: "Microsoft YaHei", "SimHei";
+    font-size: 22px;
+    color: green;
+    font-weight: normal;
+}
+
+.zj_gonggao {
+    background-color: #f0f7fd;
+    border: 1px solid #a5a5a5;
+}
+
+.zj_caozuo_font {
+    font-family: "宋体";
+    font-size: 14px;
+    color: #3f4042;
+}
+
+.red_font {
+    color: #ff0000;
+    font-size: 13px;
+}
+
+.green_font {
+    color: green;
+    font-size: 13px;
+}
+
+.zj_zhuangtai {
+    font-family: "宋体";
+    font-size: 13px;
+    color: #000100;
+}
+
+.zjks_dh_title {
+    background-color: #eaf1f9;
+    height: 26px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #ececec;
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
+    color: #585453;
+    text-align: center;
+}
+
+.zjks_boder {
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-right-color: #ebeff8;
+    border-left-color: #ebeff8;
+}
+
+.zjks_dh_white {
+    background-color: #ffffff;
+    height: 26px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #ececec;
+}
+
+.zjks_dh_black {
+    background-color: #f2f2f2;
+    height: 26px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #ececec;
+}
+
+.xy-box {
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #e5e5e5;
+}
+
+.xy-bg1 {
+    background-image: url(../images/xy-bg.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+.xy-bg2 {
+    background-image: url(../images/xy-bg2.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+.xy-bg44 {
+    background-image: url(../images/xy-bg3.jpg);
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    border: 1px solid #cccccc;
+}
+
+.xy-font-16px {
+    font-family: "宋体";
+    font-size: 16px;
+    font-weight: bold;
+    color: #666666;
+}
+
+a.anav {
+    font-family: "宋体";
+    font-size: 14px;
+    color: #c03b18;
+    text-decoration: none;
+}
+
+.xy-font-14px {
+    font-family: "宋体";
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    text-indent: 30px;
+}
+
+a.anav:hover {
+    font-family: "宋体";
+    font-size: 14px;
+    color: #c03b18;
+    text-decoration: underline;
+}
+
+.xy-font-12px {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-image: url(../images/xy-new3.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.xy-box111 {
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #e6e6e6;
+    border-bottom-color: #e6e6e6;
+    border-left-color: #e6e6e6;
+}
+
+.xy-fontt-14 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #D00137;
+}
+
+/*追加表格样式*/
+
+.star {
+    font-family: "宋体";
+    font-size: 12px;
+    color: #F00;
+}
+
+.bk_1 {
+    border: 1px solid #f6f6f6;
+}
+
+.znkz-box {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #D1D1D1;
+    /*xzbai修改表格样式*/
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #D1D1D1;
+}
+
+.font-14px {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0a3b5b;
+}
+
+.bk {
+    background-image: url(images/bk-bg.jpg);
+    border: 1px solid #CCCCCC;
+}
+
+.tb-box {
+    background-image: url(images/tb-bg.jpg);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #d0d0d0;
+    border-bottom-color: #d0d0d0;
+    border-left-color: #d0d0d0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+.tb_bg_white {
+    background-color: #FFFFFF;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d0d0d0;
+    height: 24px;
+    text-align: center;
+}
+
+.tb_bg_blue {
+    background-color: #e2eefa;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d0d0d0;
+    height: 24px;
+    text-align: center;
+}
+
+.tb_bg_gray {
+    background-color: #f0f0f0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d0d0d0;
+    height: 24px;
+    text-align: center;
+}
+
+.line1 {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d0d0d0;
+}
+
+.tb-box2 {
+    background-image: url(images/tb-bg2.jpg);
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #d0d0d0;
+    border-bottom-color: #d0d0d0;
+    border-left-color: #d0d0d0;
+}
+
+.tb-bg111 {
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: bold;
+    color: #495e89;
+    background-image: url(images/but-9.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: 36px;
+}
+
+.tb-bg-11 {
+    background-image: url(images/tb-bg3.jpg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    height: 24px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-bottom-color: #d0d0d0;
+    border-left-color: #d0d0d0;
+}
+
+.top-you-bg {
+    background-image: url(images/top-you.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a.whier {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a.whier:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.bk_1 {
+    border: 1px solid #b9b9b9;
+}
+
+.znkz-box {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #D1D1D1;
+    font-family: "宋体";
+    font-size: 12px;
+    line-height: 100%;
+    color: #000;
+}
+
+.font-17px {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.jsq-bg {
+    font-family: "微软雅黑";
+    font-size: 17px;
+    color: #5d5e5e;
+    background-image: url(images/jsq-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bm_siprint_title_font {
+    font-family: "黑体";
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.print_title {
+    font-family: "黑体";
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.print_title_zkz {
+    font-family: "黑体";
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
